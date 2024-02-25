@@ -287,26 +287,17 @@ p {
     color: #fff;
 }
 
-.icon1 {
-    text-align: center;
-    width: 80%;
-    position: absolute;
-
+.social-icons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
 }
 
-.icon2 {
+.social-icons a {
+    flex: 1;
     text-align: center;
-    width: 80%;
-    position: absolute;
-
 }
 
-.icon3 {
-    text-align: center;
-    width: 80%;
-    position: absolute;
-
-}
 .contact{
     margin-bottom: 20px;
 }
