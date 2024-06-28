@@ -189,7 +189,7 @@ p {
     background: #fff0fa;
 }
 
-.skills .content {
+/* .skills .content {
     padding: 40px 0;
     font-size: xx-large;
 }
@@ -229,7 +229,40 @@ p {
 .skills-details .boxes .per {
     font-size: xxx-large;
     color: #f440e5;
-}
+} */
+
+.skills .content {
+    text-align: center;
+  }
+  
+  .skills .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; 
+    
+  }
+  
+  .skills .box {
+    width: calc(25% - 20px); 
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+  }
+
+  .skills .box:hover{
+    background: #f440e5;
+    color: #fff;
+    transform: scale(1.10);
+  }
+  
+  .skills .box .topic {
+    font-size: 1.2em;
+    /* font-weight: bold; */
+    transition: all 0.4s ease;
+    
+  }
 
 p {
     font-size: 20px;
